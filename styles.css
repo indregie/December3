@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("assets/Lobster-Regular.ttf");
+}
+
+body {
+  font-family: "Lobster", Arial, sans-serif;
+  background-color: rgb(19, 22, 29);
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+header p {
+  text-shadow: 0.125rem 0.125rem 0.25rem rgba(144, 168, 135, 0.8);
+}
+
+footer {
+  text-align: center;
+}
+
+.button {
+  background: linear-gradient(to right, red, green);
+  border: none; 
+  color: white;
+  padding: 0.68rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0.8rem 1.5rem rgba(18, 121, 18, 0.5);
+}
